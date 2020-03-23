@@ -16,9 +16,8 @@ Then, the English Python version of your code will be printed and then your prog
 
 # Example
 Look at the following code:
-![Example Code](CodeExample.png)
 
-Note that this code is alligned to the right because of Github's limited support in Hebrew.
+![Example Code](CodeExample.png)
 
 # What Languate Features It Supports?
 functions definitions, booleans, conditions, returns from a function, for loops, while loops, print function, input function, int, float, complex, str, dict, list, set, range, and, or.
