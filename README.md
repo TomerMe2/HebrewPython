@@ -16,21 +16,7 @@ Then, the English Python version of your code will be printed and then your prog
 
 # Example
 Look at the following code:
-```
-הגדר מספר_הוא_ראשוני(מספר):
-    עבור רץ בתוך טווח(2, מספר):
-        אם מספר % רץ == 0:
-            החזר שקר
-    החזר אמת
-
-מספר_ראשוניים = 0
-רץ = 3
-כלעוד מספר_ראשוניים < 10:
-    אם מספר_הוא_ראשוני(רץ):
-        הצג(רץ)
-        מספר_ראשוניים += 1
-    רץ += 1
-```
+![Example Code](CodeExample.png)
 
 Note that this code is alligned to the right because of Github's limited support in Hebrew.
 
