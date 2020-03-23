@@ -10,7 +10,7 @@ First, make sure you have installed Python 3.
 Write Hebrew Python code in a file. For the example, we assume that the file path is 'C:\check.hpy'.
 Navigate to the Hebrew Python Compiler directory with your cmd, and type:
 ```
-python C:\check.hpy
+python executer.py C:\check.hpy
 ```
 Then, the English Python version of your code will be printed and then your program will run.
 
@@ -19,5 +19,5 @@ Look at the following code:
 
 ![Example Code](CodeExample.png)
 
-# What Languate Features It Supports?
+# What Language Features It Supports?
 functions definitions, booleans, conditions, returns from a function, for loops, while loops, print function, input function, int, float, complex, str, dict, list, set, range, and, or.
