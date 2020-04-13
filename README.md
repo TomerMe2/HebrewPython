@@ -14,6 +14,9 @@ python executer.py C:\check.hpy
 ```
 Then, the English Python version of your code will be printed and then your program will run.
 
+#### There's also a web version! Check it out!
+http://hepy.epizy.com/editor.html
+
 # Example
 Look at the following code:
 
