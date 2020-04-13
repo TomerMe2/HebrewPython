@@ -45,13 +45,14 @@ class Line:
         for char in string:
             # check that we are not inside quotes
             if quotes_type == '':
-                if char == ' ':
+                if char == '"' or char == "'":
                     lst.append(buffer)
                     buffer = ''
-                else:
-                    buffer += str(char)
-                if char == '"' or char == "'":
                     quotes_type = char
+                elif char == ' ':
+                    lst.append(buffer)
+                    buffer = ''
+                buffer += str(char)
             else:
                 buffer += str(char)
                 if char == quotes_type:

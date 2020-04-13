@@ -79,15 +79,15 @@ def strip(string):
     after_strip = ''
     step = 0   # 0 for before_strip, 1 for stripped and 2 for after_strip
     for char in string:
-        if step == 1 and char == '(':
+        if step == 1 and (char == '(' or char == ':'):
             step = 2
         if step == 0 and char != '\t' and char != ' ' and char != '(':
             step = 1
         if step == 0:
             before_strip += str(char)
-        if step == 1:
+        elif step == 1:
             stripped += str(char)
-        if step == 2:
+        elif step == 2:
             after_strip += str(char)
     return before_strip, stripped, after_strip
 
